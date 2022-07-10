@@ -19,7 +19,30 @@
 
             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: black; font-size: 19px; margin-left: 500px;"> <i class="fas fa-cog" style="color: purple; font-size: 19px;"></i> Setting</button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="margin-left: 500px;">
-                <li><a href="/Setting.php" class="dropdown-item"> Setting </a></li>
+                <li>
+                <a href="#Setting" class="list-group-item list-group-item-action bg-transparent second-text fw-bold" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                     Setting <i class="fas fa-chevron-down"></i>
+                </a>    
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="Setting">
+                            <div class="card card-body">
+                                <a href="/Setting.php" class="#">
+                                 Home
+                                </a>
+                                <a href="/Setting.php">
+                                    About
+                                </a>
+                                <a href="/Setting.php">
+                                 Privacy
+                                </a>
+                                <a href="/Setting.php">
+                                    Location 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <li><a href="/login.php" class="dropdown-item"> Login </a></li>
                 <li><a href="/register.php" class="dropdown-item"> Logout </a></li>
                 <li><a href="#" class="dropdown-item"> Contact </a></li>
